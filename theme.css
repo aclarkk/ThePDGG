@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 18px;
+  font-family: 'Source Serif Pro', serif;
+  line-height: 1.8;
+  color: black;
+}
+
+footer{
+  background: #F9FCFF;
+}
+
+#main{
+  padding: 5rem 1em;
+}
+
+.container{
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+#logo{
+  max-width: 120px;
+  display: block;
+  margin-bottom: 5em;
+}
+
+h1, h2{
+  font-size: 1.125em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  line-height: 1.4;
+}
+
+
+a{
+  color: #8139C0;
+  text-decoration: underline;
+}
+
+p{
+  margin-bottom: 1em;
+}
+
+ul{
+  margin-bottom: 1em;
+  padding: 0 1em
+}
+
+li{
+  padding-bottom: .25em;
+  margin-bottom: .25em;
+}
+
+.sign-up-form{
+  margin-bottom: 2em;
+}
+
+input[type="email"]{
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  border: solid 1px #264057;
+  border-radius: 2px;
+  height: 2.5em;
+  font-size: 1em;
+  padding-left: 1em;
+}
+
+input[type="email"].mce_inline_error{
+  border-color: red;
+}
+
+input[type="submit"]{
+  background: black;
+  height: 2.5em;
+  color: white;
+  border: none;
+  padding: 0 2em;
+  border-radius: 2px;
+  display: block;
+  margin-top: 1em;
+  cursor: pointer;
+  font-size: .875em;
+}
+
+#mce-success-response, #mce-error-response{
+  background: #f8f8f8;
+  padding: 1em;
+  margin: 1rem 0;
+  border-radius: 2px;
+}
+
+
+
